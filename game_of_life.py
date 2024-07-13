@@ -18,6 +18,7 @@ def count_neightbours(cells, x, y):
     for x, y in nearby_cells:
         if -1 < x < len(cells[0]) and -1 < y < len(cells):
             if cells[y][x] != 0:
+
                 neighbours += 1
 
     return neighbours
