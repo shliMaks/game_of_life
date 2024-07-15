@@ -119,10 +119,6 @@ while True:
         wait -= 1
 
     
-    
-
-    
-
     for n, row in enumerate(cells):
         for n2, cell in enumerate(row):
             if cell == 1:
